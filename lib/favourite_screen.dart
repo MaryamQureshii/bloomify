@@ -79,7 +79,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                 size: 80, color: Colors.grey.withOpacity(0.5)),
             const SizedBox(height: 16),
             const Text(
-              "No favorite plants yet 🌿",
+              "No favorite plants yet",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
@@ -105,7 +105,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
         watering: "Moderate watering",
         toxicity: "Info unavailable",
         careDifficulty: "Moderate",
-        imageUrl: "assets/placeholder_plant.png", // fallback
+        imageUrl: "assets/placeholder_plant.png", 
       );
     }).toList();
 
@@ -208,3 +208,4 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
     );
   }
 }
+
